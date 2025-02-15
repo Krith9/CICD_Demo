@@ -1,4 +1,5 @@
 ﻿
+
 namespace CICD_Core
 {
     public class Calculator
