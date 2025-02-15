@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using CICD_Core;
 
-Console.WriteLine("Enter the first number:");
+Console.WriteLine("Enter your first number:");
 int a, b;
 while (true)
 {
@@ -9,7 +9,7 @@ while (true)
 
     if (!int.TryParse(s, out a))
     {
-        Console.WriteLine("Error: please enter an integer");
+        Console.WriteLine("Error: please enter a valid integer");
     }
     else
     {
@@ -17,7 +17,7 @@ while (true)
     }
 }
 
-Console.WriteLine("Enter the second number:");
+Console.WriteLine("Enter your second number:");
 while (true)
 {
     string? s = Console.ReadLine();
